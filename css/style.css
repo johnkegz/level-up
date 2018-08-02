@@ -1,0 +1,129 @@
+/*uber logo*/
+.flex-container {
+    display: flex; 
+    background-color: rgba(92, 223, 233, 0.822);
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .flex-container > div {
+    background-color: #000000;
+    width: 100px;
+    margin-top:20px;
+    margin-bottom: -100px;
+    margin-left: 47%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    color: #ffffff;
+    
+  }
+  /*end of uber logo*/
+/*top title*/
+  #top_title{
+        display: flex; 
+        margin-left: 36%;
+  }
+  #top_title> #last_name{
+    margin-left: 6%;
+}
+  /*end of top title*/
+  #labels{
+    display: flex; 
+    margin-left: 36%;
+}
+
+#labels> #l_name{
+        margin-left: 2%;
+}
+
+  #top{
+    display: flex;     
+  }
+  #top > div{      
+    margin-left: 43%;
+    font-weight: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+  }
+  #top2{
+    display: flex;     
+  }
+  #top2 > div{      
+    margin-left: 40%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: 90px;
+    
+  }
+  #l_name{
+       padding: 15px;
+  }
+  #f_name{
+       padding: 15px;
+  }
+  #number{
+    display: flex; 
+    margin-left: 36%;
+}
+  #phone{
+    display: flex; 
+    margin-left: 36%;
+      }
+      #phone_input{
+        width: 39%;
+        padding: 15px;
+      }
+  #email_text{
+    display: flex; 
+    margin-left: 36%;
+  }
+  #email{
+    display: flex; 
+    margin-left: 36%;
+  }
+  #email_input{
+    width: 39%;
+    padding: 15px;
+  }
+  #pass_text{
+    display: flex; 
+    margin-left: 36%;
+  }
+  #pass{
+    display: flex; 
+    margin-left: 36%;	
+  }
+  #pass_input{
+    width: 39%;
+    padding: 15px;
+  }
+  #promo{
+    display: flex; 
+    margin-left: 36%;	
+  }
+  #sign{
+    display: flex; 
+    margin-left: 36%;	
+  
+  }
+  #sign_input{
+      width: 380px;
+      padding: 10px;
+      background-color: rgb(18, 131, 139);
+      color:#ffffff;
+  }
+  #terms{
+   
+    margin-left: 36%;
+    width: 30%;	
+  
+  }
+  
+  @media screen and (max-width: 600px){
+      .flex-container > div {
+        margin-left: 40%;
+    }
+  }
