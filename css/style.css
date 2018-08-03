@@ -119,11 +119,86 @@
    
     margin-left: 36%;
     width: 30%;	
-  
-  }
+    }
   
   @media screen and (max-width: 600px){
-      .flex-container > div {
-        margin-left: 40%;
+  .flex-container > div {
+      margin-left: 35%;
+  }
+  #top_title{
+    display: flex; 
+    margin-left: 22%;
+  }
+
+#top > div{      
+margin-left: 18%;
+}
+#top2 > div{      
+  margin-left: 20%;
+ 
+}
+#labels{
+  display: flex; 
+  margin-left: 0%;
+}
+#l_name{
+  width:116px;
+  padding: 15px;
+}
+#f_name{
+  width:116px;
+  padding: 15px;
+}
+#number{
+display: flex; 
+margin-left: 2%;
+}
+#phone_input{
+  width: 88%;
+ }
+#email_text{
+display: flex; 
+margin-left: 2%;
+}
+#email{
+display: flex; 
+margin-left: 2%;
+}
+#email_input{
+  width: 88%;
+  
+}
+#promo{
+display: flex; 
+margin-left: 2%;	
+}
+#sign{
+display: flex; 
+margin-left: 2%;;	
+
+}
+#phone{
+  display: flex; 
+  margin-left: 2%;
     }
+#pass_text{
+      display: flex; 
+      margin-left: 2%;
+    }
+#pass{
+      display: flex; 
+      margin-left: 2%;	
+    }
+#pass_input{
+      width: 88%;
+     
+    }
+    #sign_input{
+      width: 98%;
+       }
+ #terms{
+   
+      margin-left: 2%;
+      width: 100%;	
+      }
   }
