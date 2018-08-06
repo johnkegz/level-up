@@ -27,6 +27,7 @@ body{
   #top_title{
         display: flex; 
         margin-left: 36%;
+        font-family: Arial, Helvetica, sans-serif;
   }
   #top_title> #last_name{
     margin-left: 6%;
@@ -70,6 +71,7 @@ body{
   #number{
     display: flex; 
     margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
 }
   #phone{
     display: flex; 
@@ -83,6 +85,7 @@ body{
   #email_text{
     display: flex; 
     margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
   }
   #email{
     display: flex; 
@@ -95,6 +98,7 @@ body{
   #pass_text{
     display: flex; 
     margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
   }
   #pass{
     display: flex; 
@@ -107,6 +111,7 @@ body{
   #promo{
     display: flex; 
     margin-left: 36%;	
+    font-family: Arial, Helvetica, sans-serif;
   }
   #sign{
     display: flex; 
@@ -123,6 +128,7 @@ body{
    
     margin-left: 36%;
     width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
     }
   
     @media screen and (max-width: 780px){
