@@ -9,8 +9,8 @@ Uber login page models the structre and behaviour of the Uber login page
 
 ### Prerequisites
 
-You need to be having a web browser to view the page layout
-Python installed to run the behaviour of the uber page
+ * You need to be having a web browser to view the page layout
+ *  Python installed to run the behaviour of the uber page
 
 ### Installing
 
