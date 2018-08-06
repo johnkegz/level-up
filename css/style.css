@@ -15,7 +15,7 @@ body{
     width: 100px;
     margin-top:20px;
     margin-bottom: -100px;
-    margin-left: 47%;
+    margin-left: 46%;
     text-align: center;
     line-height: 75px;
     font-size: 20px;
@@ -76,7 +76,7 @@ body{
     margin-left: 36%;
       }
       #phone_input{
-        width: 33%;
+        width: 267px;
         padding: 15px;
       }
       
@@ -89,7 +89,7 @@ body{
     margin-left: 36%;
   }
   #email_input{
-    width: 39%;
+    width: 322px;
     padding: 15px;
   }
   #pass_text{
@@ -101,7 +101,7 @@ body{
     margin-left: 36%;	
   }
   #pass_input{
-    width: 39%;
+    width: 322px;
     padding: 15px;
   }
   #promo{
@@ -114,7 +114,7 @@ body{
   
   }
   #sign_input{
-      width: 380px;
+    width: 358px;
       padding: 10px;
       background-color: rgb(18, 131, 139);
       color:#ffffff;
@@ -122,16 +122,183 @@ body{
   #terms{
    
     margin-left: 36%;
-    width: 30%;	
+    width: 350px;
     }
   
-  @media screen and (max-width: 600px){
+    @media screen and (max-width: 780px){
+      .flex-container > div {
+          margin-left: 41%;
+      }
+      #top_title{
+        display: flex; 
+        margin-left: 28%;
+      }
+    
+    #top > div{      
+    margin-left:33%;
+    }
+    #top2 > div{      
+      margin-left: 29%;
+     
+    }
+    #labels{
+      display: flex; 
+      margin-left: 26%;
+    }
+    #l_name{
+      width:116px;
+      padding: 15px;
+      
+    }
+    #f_name{
+      width:116px;
+      padding: 15px;
+      margin-left: 2%;
+    }
+    #number{
+    display: flex; 
+    margin-left: 28%;
+    }
+    #phone_input{
+      width: 210px;
+     }
+    #email_text{
+    display: flex; 
+    margin-left: 28%;
+    }
+    #email{
+    display: flex; 
+    margin-left: 28%;
+    }
+    #email_input{
+      width: 270px;
+      
+    }
+    #promo{
+    display: flex; 
+    margin-left: 28%;	
+    }
+    #sign{
+    display: flex; 
+    margin-left: 28%;;	
+    
+    }
+    #phone{
+      display: flex; 
+      margin-left: 28%;
+        }
+    #pass_text{
+          display: flex; 
+          margin-left: 28%;
+        }
+    #pass{
+          display: flex; 
+          margin-left: 28%;	
+        }
+    #pass_input{
+      width: 270px;
+         
+        }
+        #sign_input{
+          width: 310px;
+           }
+     #terms{
+       
+          margin-left: 28%;
+          width: 310px;
+          }
+      }
+      @media screen and (max-width: 480px){
+        .flex-container > div {
+            margin-left: 35%;
+        }
+        #top_title{
+          display: flex; 
+          margin-left: 12%;
+        }
+      
+      #top > div{      
+      margin-left:22%;
+      }
+      #top2 > div{      
+        margin-left: 12%;
+       
+      }
+      #labels{
+        display: flex; 
+        margin-left: 5%;
+      }
+      #l_name{
+        width:116px;
+        padding: 15px;
+        
+      }
+      #f_name{
+        width:116px;
+        padding: 15px;
+        margin-left: 2%;
+      }
+      #number{
+      display: flex; 
+      margin-left: 7%;
+      }
+      #phone_input{
+        width: 220px;
+       }
+      #email_text{
+      display: flex; 
+      margin-left: 7%;
+      }
+      #email{
+      display: flex; 
+      margin-left: 5%;
+      }
+      #email_input{
+        width: 280px;
+        
+      }
+      #promo{
+      display: flex; 
+      margin-left: 7%;	
+      }
+      #sign{
+      display: flex; 
+      margin-left: 5%;;	
+      
+      }
+      #phone{
+        display: flex; 
+        margin-left: 5%;
+          }
+      #pass_text{
+            display: flex; 
+            margin-left: 7%;
+          }
+      #pass{
+            display: flex; 
+            margin-left: 5%;	
+          }
+      #pass_input{
+        width: 280px;
+           
+          }
+          #sign_input{
+            width: 310px;
+             }
+       #terms{
+         
+            margin-left: 7%;
+            width: 310px;
+            }
+        }
+
+  @media screen and (max-width: 324px){
   .flex-container > div {
       margin-left: 35%;
   }
   #top_title{
     display: flex; 
-    margin-left: 22%;
+    margin-left: 2%;
   }
 
 #top > div{      
@@ -148,10 +315,12 @@ margin-left: 18%;
 #l_name{
   width:116px;
   padding: 15px;
+  
 }
 #f_name{
   width:116px;
   padding: 15px;
+  margin-left: 2%;
 }
 #number{
 display: flex; 
