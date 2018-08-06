@@ -1,6 +1,9 @@
 body{
   background-color:   #DCDCDC;
 }
+a{
+  text-decoration: none;
+}
 /*uber logo*/
 .flex-container {
     display: flex; 
