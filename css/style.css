@@ -44,7 +44,9 @@ a{
 #labels> #l_name{
         margin-left: 2%;
 }
-
+.select{
+  height: 55px;
+}
   #top{
     display: flex;     
   }
@@ -67,9 +69,13 @@ a{
   }
   #l_name{
        padding: 15px;
+       font-size: 15px;
+       width: 138px;
   }
   #f_name{
        padding: 15px;
+       font-size: 15px;
+       width: 138px;
   }
   #number{
     display: flex; 
@@ -83,6 +89,7 @@ a{
       #phone_input{
         width: 267px;
         padding: 15px;
+        font-size: 15px;
       }
       
   #email_text{
@@ -97,6 +104,7 @@ a{
   #email_input{
     width: 322px;
     padding: 15px;
+    font-size: 15px;
   }
   #pass_text{
     display: flex; 
@@ -110,6 +118,7 @@ a{
   #pass_input{
     width: 322px;
     padding: 15px;
+    font-size: 15px;
   }
   #promo{
     display: flex; 
@@ -133,8 +142,22 @@ a{
     width: 350px;
     font-family: Arial, Helvetica, sans-serif;
     }
-  
-    @media screen and (max-width: 780px){
+    @media screen and (max-width: 1280px){
+      .flex-container > div {
+          margin-left: 46%;
+      }
+      @media screen and (max-width: 1048px){
+      .flex-container > div {
+        margin-left: 45%;
+    }
+    @media screen and (max-width: 820px){
+      .flex-container > div {
+        margin-left: 44%;
+    }
+   
+      }  
+
+    @media screen and (max-width: 782px){
       .flex-container > div {
           margin-left: 41%;
       }
@@ -192,6 +215,7 @@ a{
     margin-left: 28%;;	
     
     }
+    
     #phone{
       display: flex; 
       margin-left: 28%;
