@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/johnkegz/level-up.svg?branch=master)](https://travis-ci.org/johnkegz/level-up)
 
 ## Project Title
 
