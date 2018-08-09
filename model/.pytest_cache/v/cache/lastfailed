@@ -1,1 +1,3 @@
-{}
+{
+  "test_signin.py::Signin::test_submit_inputs": true
+}
