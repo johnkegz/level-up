@@ -5,6 +5,7 @@ class Mammal(object):
 	self.height = float(height)
 	self.age = int(age)
     #behaivior of a class
+
     def Walking(self):
         print("walking")
     def set_age(self);
