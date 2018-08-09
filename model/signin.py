@@ -59,7 +59,7 @@ class Signin(object):
             return 'Enter correct password'
         else:
             return True
-        #submits the form inputs
+    #submits the form inputs
     def submit_inputs(self):
         feilds = self.empty_feilds()      
         valid_phone = self.validate_phone()
