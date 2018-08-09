@@ -6,6 +6,7 @@ install:
 script:
    - nosetests --with-coverage --cover-tests
    - coverage report
+   - pytest
 
 
 after_success:
