@@ -5,6 +5,9 @@ class Signin(unittest.TestCase):
     Class for runnining test
     """
     def test_creation(self):
+    """
+    Test for whether the object/instance of Signin() is create
+    """
         si = Signin()
         self.assertIsInstance(si, Signin)
     def test_empty_feilds(self):
