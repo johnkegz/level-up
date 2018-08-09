@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/johnkegz/level-up.svg?branch=master)](https://travis-ci.org/johnkegz/level-up)
+[![Coverage Status](https://coveralls.io/repos/github/johnkegz/level-up/badge.svg)](https://coveralls.io/github/johnkegz/level-up)
 
 ## Project Title
 
