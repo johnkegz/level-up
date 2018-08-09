@@ -16,5 +16,5 @@ class Signin(unittest.TestCase):
     def test_validate_email(self):
         self.assertEqual(sign.validate_email(), True)
     def test_submit_inputs(self):
-        self.assertEqual(sign.submit_inputs(), "YOU HAVE LOGGED IN SUCCESS FULLY")
+        self.assertEqual(sign.submit_inputs(), "YOU HAVE LOGGED IN SUCCESS FULLY..")
         
