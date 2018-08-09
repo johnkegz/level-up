@@ -1,3 +1,3 @@
 pytest==3.6.2
 coverage==4.5.1
-coveralls==1.3.0py
+coveralls==1.0a1
