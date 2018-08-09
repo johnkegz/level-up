@@ -1,0 +1,8 @@
+[
+  "test_signin.py::Signin::test_combined_name",
+  "test_signin.py::Signin::test_creation",
+  "test_signin.py::Signin::test_empty_feilds",
+  "test_signin.py::Signin::test_phone_validation",
+  "test_signin.py::Signin::test_submit_inputs",
+  "test_signin.py::Signin::test_validate_email"
+]

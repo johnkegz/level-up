@@ -1,6 +1,9 @@
 import unittest
 from signin import sign
 class Signin(unittest.TestCase):
+    """
+    Class for runnining test
+    """
     def test_creation(self):
         si = Signin()
         self.assertIsInstance(si, Signin)
