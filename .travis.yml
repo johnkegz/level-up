@@ -7,7 +7,6 @@ script:
   - pytest
   - coverage
   - coverage debug data
-  - coverage report
-  
+  - coverage report  
 after_success:
 - coveralls
