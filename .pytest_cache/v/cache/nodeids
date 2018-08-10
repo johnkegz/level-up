@@ -1,8 +1,8 @@
 [
-  "test_signin.py::Signin::test_combined_name",
-  "test_signin.py::Signin::test_creation",
-  "test_signin.py::Signin::test_empty_feilds",
-  "test_signin.py::Signin::test_phone_validation",
-  "test_signin.py::Signin::test_submit_inputs",
-  "test_signin.py::Signin::test_validate_email"
+  "model/test_signin.py::Signin::test_combined_name",
+  "model/test_signin.py::Signin::test_creation",
+  "model/test_signin.py::Signin::test_empty_feilds",
+  "model/test_signin.py::Signin::test_phone_validation",
+  "model/test_signin.py::Signin::test_submit_inputs",
+  "model/test_signin.py::Signin::test_validate_email"
 ]
