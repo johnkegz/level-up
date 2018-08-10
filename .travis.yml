@@ -5,7 +5,6 @@ install:
   - pip install -r requirements.txt
 script:
   - pytest
-  - py.test -v --cov-config .coveragerc --cov=mymodule mymodule/tests
   - coverage
   - coverage report
 after_success:
