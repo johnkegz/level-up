@@ -8,5 +8,6 @@ script:
   - coverage
   - coverage debug data
   - coverage report
+  
 after_success:
 - coveralls
