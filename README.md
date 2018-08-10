@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/johnkegz/level-up.svg?branch=master)](https://travis-ci.org/johnkegz/level-up)
 [![Coverage Status](https://coveralls.io/repos/github/johnkegz/level-up/badge.svg)](https://coveralls.io/github/johnkegz/level-up)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/7101c17b36f9c14185ec/maintainability)](https://codeclimate.com/github/johnkegz/level-up/maintainability)
 
 ## Project Title
