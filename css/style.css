@@ -1,0 +1,410 @@
+body{
+  background-color:   #DCDCDC;
+}
+a{
+  text-decoration: none;
+}
+/*uber logo*/
+.flex-container {
+    display: flex; 
+    background-color: rgba(92, 223, 233, 0.822);
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .flex-container > div {
+    background-color: #000000;
+    width: 100px;
+    margin-top:20px;
+    margin-bottom: -100px;
+    margin-left: 45%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    color: #ffffff;
+    
+  }
+  /*end of uber logo*/
+/*top title*/
+  #top_title{
+        display: flex; 
+        margin-left: 36%;
+        font-family: Arial, Helvetica, sans-serif;
+  }
+  #top_title> #last_name{
+    margin-left: 6%;
+}
+  /*end of top title*/
+  #labels{
+    display: flex; 
+    margin-left: 36%;
+}
+
+#labels> #l_name{
+        margin-left: 2%;
+}
+.select{
+  height: 55px;
+}
+  #top{
+    display: flex;     
+  }
+  #top > div{      
+    margin-left: 41%;
+    font-weight: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+  }
+  #top2{
+    display: flex;     
+  }
+  #top2 > div{      
+    margin-left: 38%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: 90px;
+    
+  }
+  #l_name{
+       padding: 15px;
+       font-size: 15px;
+       width: 138px;
+  }
+  #f_name{
+       padding: 15px;
+       font-size: 15px;
+       width: 138px;
+  }
+  #number{
+    display: flex; 
+    margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  #phone{
+    display: flex; 
+    margin-left: 36%;
+      }
+      #phone_input{
+        width: 267px;
+        padding: 15px;
+        font-size: 15px;
+      }
+      
+  #email_text{
+    display: flex; 
+    margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #email{
+    display: flex; 
+    margin-left: 36%;
+  }
+  #email_input{
+    width: 322px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  #pass_text{
+    display: flex; 
+    margin-left: 36%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #pass{
+    display: flex; 
+    margin-left: 36%;	
+  }
+  #pass_input{
+    width: 322px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  #promo{
+    display: flex; 
+    margin-left: 36%;	
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #sign{
+    display: flex; 
+    margin-left: 36%;	
+  
+  }
+  #sign_input{
+    width: 358px;
+      padding: 10px;
+      background-color: rgb(18, 131, 139);
+      color:#ffffff;
+  }
+  #terms{
+   
+    margin-left: 36%;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    @media screen and (max-width: 1280px){
+      .flex-container > div {
+          margin-left: 46%;
+      }
+      @media screen and (max-width: 1048px){
+      .flex-container > div {
+        margin-left: 45%;
+    }
+    @media screen and (max-width: 820px){
+      .flex-container > div {
+        margin-left: 44%;
+    }
+   
+      }  
+
+    @media screen and (max-width: 782px){
+      .flex-container > div {
+          margin-left: 41%;
+      }
+      #top_title{
+        display: flex; 
+        margin-left: 28%;
+      }
+    
+    #top > div{      
+    margin-left:33%;
+    }
+    #top2 > div{      
+      margin-left: 29%;
+     
+    }
+    #labels{
+      display: flex; 
+      margin-left: 26%;
+    }
+    #l_name{
+      width:116px;
+      padding: 15px;
+      
+    }
+    #f_name{
+      width:116px;
+      padding: 15px;
+      margin-left: 2%;
+    }
+    #number{
+    display: flex; 
+    margin-left: 28%;
+    }
+    #phone_input{
+      width: 210px;
+     }
+    #email_text{
+    display: flex; 
+    margin-left: 28%;
+    }
+    #email{
+    display: flex; 
+    margin-left: 28%;
+    }
+    #email_input{
+      width: 270px;
+      
+    }
+    #promo{
+    display: flex; 
+    margin-left: 28%;	
+    }
+    #sign{
+    display: flex; 
+    margin-left: 28%;;	
+    
+    }
+    
+    #phone{
+      display: flex; 
+      margin-left: 28%;
+        }
+    #pass_text{
+          display: flex; 
+          margin-left: 28%;
+        }
+    #pass{
+          display: flex; 
+          margin-left: 28%;	
+        }
+    #pass_input{
+      width: 270px;
+         
+        }
+        #sign_input{
+          width: 310px;
+           }
+     #terms{
+       
+          margin-left: 28%;
+          width: 310px;
+          }
+      }
+      @media screen and (max-width: 480px){
+        .flex-container > div {
+            margin-left: 35%;
+        }
+        #top_title{
+          display: flex; 
+          margin-left: 12%;
+        }
+      
+      #top > div{      
+      margin-left:22%;
+      }
+      #top2 > div{      
+        margin-left: 12%;
+       
+      }
+      #labels{
+        display: flex; 
+        margin-left: 5%;
+      }
+      #l_name{
+        width:116px;
+        padding: 15px;
+        
+      }
+      #f_name{
+        width:116px;
+        padding: 15px;
+        margin-left: 2%;
+      }
+      #number{
+      display: flex; 
+      margin-left: 7%;
+      }
+      #phone_input{
+        width: 220px;
+       }
+      #email_text{
+      display: flex; 
+      margin-left: 7%;
+      }
+      #email{
+      display: flex; 
+      margin-left: 5%;
+      }
+      #email_input{
+        width: 280px;
+        
+      }
+      #promo{
+      display: flex; 
+      margin-left: 7%;	
+      }
+      #sign{
+      display: flex; 
+      margin-left: 5%;;	
+      
+      }
+      #phone{
+        display: flex; 
+        margin-left: 5%;
+          }
+      #pass_text{
+            display: flex; 
+            margin-left: 7%;
+          }
+      #pass{
+            display: flex; 
+            margin-left: 5%;	
+          }
+      #pass_input{
+        width: 280px;
+           
+          }
+          #sign_input{
+            width: 310px;
+             }
+       #terms{
+         
+            margin-left: 7%;
+            width: 310px;
+            }
+        }
+
+  @media screen and (max-width: 324px){
+  .flex-container > div {
+      margin-left: 35%;
+  }
+  #top_title{
+    display: flex; 
+    margin-left: 2%;
+  }
+
+#top > div{      
+margin-left: 18%;
+}
+#top2 > div{      
+  margin-left: 20%;
+ 
+}
+#labels{
+  display: flex; 
+  margin-left: 0%;
+}
+#l_name{
+  width:116px;
+  padding: 15px;
+  
+}
+#f_name{
+  width:116px;
+  padding: 15px;
+  margin-left: 2%;
+}
+#number{
+display: flex; 
+margin-left: 2%;
+}
+#phone_input{
+  width: 88%;
+ }
+#email_text{
+display: flex; 
+margin-left: 2%;
+}
+#email{
+display: flex; 
+margin-left: 2%;
+}
+#email_input{
+  width: 88%;
+  
+}
+#promo{
+display: flex; 
+margin-left: 2%;	
+}
+#sign{
+display: flex; 
+margin-left: 2%;;	
+
+}
+#phone{
+  display: flex; 
+  margin-left: 2%;
+    }
+#pass_text{
+      display: flex; 
+      margin-left: 2%;
+    }
+#pass{
+      display: flex; 
+      margin-left: 2%;	
+    }
+#pass_input{
+      width: 88%;
+     
+    }
+    #sign_input{
+      width: 98%;
+       }
+ #terms{
+   
+      margin-left: 2%;
+      width: 100%;	
+      }
+  }
