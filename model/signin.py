@@ -2,7 +2,7 @@ import re
 class Signin(object):
     def __init__(self, f_name = None, l_name = None, phone_number = None, email = None, password = None, submit = None):
         """
-        constructor for initializing input values
+        constructor for initializing input values.
         """
         self.f_name = f_name
         self.l_name = l_name
