@@ -1,7 +1,11 @@
 import unittest
 from signin import sign
 class Signin(unittest.TestCase):
+    """
+    Class for runnining test
+    """
     def test_creation(self):
+        
         si = Signin()
         self.assertIsInstance(si, Signin)
     def test_empty_feilds(self):
@@ -14,3 +18,4 @@ class Signin(unittest.TestCase):
         self.assertEqual(sign.validate_email(), True)
     def test_submit_inputs(self):
         self.assertEqual(sign.submit_inputs(), "YOU HAVE LOGGED IN SUCCESS FULLY")
+        
